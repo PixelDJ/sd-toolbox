@@ -1,11 +1,11 @@
 # sd-toolbox
-Tools for working with stable diffusion
+Tools for working with stable diffusion. Eventually this will be one program, but for now it is mostly a collection of scripts.
 
 ## get_model_checkpoints.py
 
 This script searches for files in a specified directory (recursively) that start with a user-provided string, and sends the names of the files found as a comma-separated list to the clipboard. 
 
-1. The script will search the specified directory (F:\\ai-art\\_models\\sd) and its subdirectories for files that start with the entered string.
+1. The script will search the specified directory (F:\\ai-art\\_models\\sd by default) and its subdirectories for files that start with the entered string.
 2. The script will remove "Weighted_sum-merged" and "SmoothStep" from the end of the file names.
 3. The script will remove the last non-alphanumeric character from each file name, unless it is a substring of another file name.
 
