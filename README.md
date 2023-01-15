@@ -1,7 +1,10 @@
 # sd-toolbox
 Tools for working with stable diffusion
 
-## get_model_checkpoints.py
+## xy_plot_helpers
+These are scripts to quickly copy information to use in the xy plot script in the stable diffusion webui.
+
+## copy_chckpoints.py
 
 This script searches for files in a specified directory (recursively) that start with a user-provided string, and sends the names of the files found as a comma-separated list to the clipboard. 
 
@@ -25,17 +28,35 @@ You can also add, remove, or modify the file extensions that the script accepts 
 
 This script requires the `pyperclip` module. Make sure it is installed before running the script.
 
+## sd-sampler-extractor
+
+This script allows you to extract the names of the samplers from the sd_samplers.py file located inside the stable-diffusion folder. It will then copy the names of the samplers as a comma-separated list to your clipboard.
+
+### Usage
+
+1. Run the script
+2. Input the location of the 'stable diffusion' folder. If the folder is located at the default location 'F:\ai-art\stable-diffusion-local', you can just press enter.
+3. The script will parse the sd_samplers.py file and extract the names of the samplers
+4. The names will be copied to your clipboard
+
+### Requirements
+- Python 3
+- pyperclip library
+
+### Note
+- Make sure to check the file path and location of the sd_samplers.py file in the script before running it.
+
 ### License
 
-This script is available under the [MIT License](https://opensource.org/licenses/MIT).
+These scripts are available under the [MIT License](https://opensource.org/licenses/MIT).
 
 ### How to contribute
 
-If you would like to contribute to this script, feel free to fork the repository and submit a pull request.
+If you would like to contribute to this project, feel free to fork the repository and submit a pull request.
 
 ### How to report issues
 
-If you encounter any issues while using this script, please open an issue on the [Github repository](https://github.com/PixelDJ/sd-toolbox)
+If you encounter any issues while using this, feel free to open an issue on the [Github repository](https://github.com/PixelDJ/sd-toolbox)
 
 #### Note
 
