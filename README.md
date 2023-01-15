@@ -28,7 +28,7 @@ You can also add, remove, or modify the file extensions that the script accepts 
 
 This script requires the `pyperclip` module. Make sure it is installed before running the script.
 
-## sd-sampler-extractor
+## copy_samplrs.py
 
 This script allows you to extract the names of the samplers from the sd_samplers.py file located inside the stable-diffusion folder. It will then copy the names of the samplers as a comma-separated list to your clipboard.
 
